@@ -49,13 +49,13 @@ public class Main {
         } */
 
         //task6
-        double VasilyDeposit = 15000;
+        double vasilyDeposit = 15000;
         int month3 = 0;
         while (month3 < 9 * 12) {
-            VasilyDeposit = VasilyDeposit + VasilyDeposit * 0.07;
+            vasilyDeposit = vasilyDeposit + vasilyDeposit * 0.07;
             month3++;
             if (month3 % 6 == 0) {
-                System.out.printf("Месяц " + month3 + ", сумма накоплений равна %.0f рублей \n", VasilyDeposit);
+                System.out.printf("Месяц " + month3 + ", сумма накоплений равна %.0f рублей \n", vasilyDeposit);
             }
 
         }
